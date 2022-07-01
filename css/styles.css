@@ -1,0 +1,201 @@
+body {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.title-image {
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Features */
+#features {
+
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icons {
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-icons:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  margin: 5% auto;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.card-body-margin {
+  margin-bottom: 60px;
+}
+
+.card-section{
+  margin-top: 5%;
+}
+
+/* Cta section */
+
+.download-button-2 {
+  margin: 3% 2% 5% 0;
+}
+
+/* Footer */
+
+.footer-icon{
+  margin: 20px 10px;
+  font-size: 1.5rem;
+}
+
+/* Media Query */
+
+@media (max-width: 1038px) and (min-width: 991.2px)
+  {
+  .title-image {
+    position: static;
+    width: 60%;
+    margin-left: 70px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991.2px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .download-buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
